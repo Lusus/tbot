@@ -76,7 +76,7 @@ class SubprocessChannelIO(channel.ChannelIO):
             raise channel.ChannelClosedException()
 
         sid = os.getsid(self.p.pid)
-        self.p.terminate()
+        self.p.kill()
         os.close(self.pty_master)
         self.p.wait()
 

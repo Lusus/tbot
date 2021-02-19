@@ -1,0 +1,6 @@
+-l
+configs/locallab.py
+-b
+configs/sandbox.py
+-vv
+--log-auto
