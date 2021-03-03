@@ -1,0 +1,6 @@
+-l
+configs/lock-locallab.py
+-b
+configs/lock-sandbox.py
+-vv
+--log-auto
